@@ -1,0 +1,18 @@
+Breve introdução à ferramenta de controlo de versões git:
+
+# Para copiar:
+git clone <URL git repository>
+
+# Para criar de raiz
+git init
+git remote add origin <URL git repository>
+git pull origin main # copiar remote para local
+
+# Para fazer commit
+git add . --all
+git commit -m "Aula 01"
+# copiar local para remote
+git push -u origin main
+
+
+
